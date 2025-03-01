@@ -30,14 +30,10 @@ class AlbumDetailsUseCase {
     }
 }
 
+// MARK: - Convert Remot model to view data model
+
 extension Photo: ViewDataModelConvertible {
     public func toViewDataModel() -> PhotoVM {
         return PhotoVM(title: title, id: id, url: url)
     }
-}
-
-public struct PhotoVM: Codable {
-    let title: String
-    let id: Int
-    let url: String
 }
