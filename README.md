@@ -1,0 +1,1 @@
+UserAlbums is an iOS application that displays a list of albums for randomly selected users. Users can browse through albums and view the details of each album, including its photos. If a photo's link is invalid, a random background color is displayed instead.
